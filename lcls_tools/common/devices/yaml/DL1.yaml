@@ -1,3 +1,172 @@
+bpms:
+  BPM10:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:581:TMIT
+        x: BPMS:IN20:581:X
+        y: BPMS:IN20:581:Y
+      control_name: BPMS:IN20:581
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SPEC
+      - CU_SXR
+      sum_l_meters: 14.405
+      type: BPM
+  BPM11:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:631:TMIT
+        x: BPMS:IN20:631:X
+        y: BPMS:IN20:631:Y
+      control_name: BPMS:IN20:631
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SPEC
+      - CU_SXR
+      sum_l_meters: 16.36
+      type: BPM
+  BPM12:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:651:TMIT
+        x: BPMS:IN20:651:X
+        y: BPMS:IN20:651:Y
+      control_name: BPMS:IN20:651
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SPEC
+      - CU_SXR
+      sum_l_meters: 16.915
+      type: BPM
+  BPM13:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:731:TMIT
+        x: BPMS:IN20:731:X
+        y: BPMS:IN20:731:Y
+      control_name: BPMS:IN20:731
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SXR
+      sum_l_meters: 18.177
+      type: BPM
+  BPM14:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:771:TMIT
+        x: BPMS:IN20:771:X
+        y: BPMS:IN20:771:Y
+      control_name: BPMS:IN20:771
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SXR
+      sum_l_meters: 19.576
+      type: BPM
+  BPM15:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:781:TMIT
+        x: BPMS:IN20:781:X
+        y: BPMS:IN20:781:Y
+      control_name: BPMS:IN20:781
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SXR
+      sum_l_meters: 19.982
+      type: BPM
+  BPM6:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:425:TMIT
+        x: BPMS:IN20:425:X
+        y: BPMS:IN20:425:Y
+      control_name: BPMS:IN20:425
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SPEC
+      - CU_SXR
+      sum_l_meters: 8.494
+      type: BPM
+  BPM8:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:511:TMIT
+        x: BPMS:IN20:511:X
+        y: BPMS:IN20:511:Y
+      control_name: BPMS:IN20:511
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SPEC
+      - CU_SXR
+      sum_l_meters: 11.571
+      type: BPM
+  BPM9:
+    controls_information:
+      PVs:
+        tmit: BPMS:IN20:525:TMIT
+        x: BPMS:IN20:525:X
+        y: BPMS:IN20:525:Y
+      control_name: BPMS:IN20:525
+    metadata:
+      area: DL1
+      beam_path:
+      - CU_ALINE
+      - CU_HTXI
+      - CU_HXR
+      - CU_HXTES
+      - CU_SFTH
+      - CU_SPEC
+      - CU_SXR
+      sum_l_meters: 11.978
+      type: BPM
 magnets:
   BX01:
     controls_information:
@@ -585,10 +754,10 @@ screens:
   OTR2:
     controls_information:
       PVs:
-        image: OTRS:IN20:571:IMAGE
+        image: OTRS:IN20:571:Image:ArrayData
         n_bits: OTRS:IN20:571:N_OF_BITS
-        n_col: OTRS:IN20:571:N_OF_COL
-        n_row: OTRS:IN20:571:N_OF_ROW
+        n_col: OTRS:IN20:571:Image:ArraySize1_RBV
+        n_row: OTRS:IN20:571:Image:ArraySize0_RBV
         resolution: OTRS:IN20:571:RESOLUTION
       control_name: OTRS:IN20:571
     metadata:
@@ -606,10 +775,10 @@ screens:
   OTR3:
     controls_information:
       PVs:
-        image: OTRS:IN20:621:Image:ArrayData
+        image: OTRS:IN20:621:IMAGE
         n_bits: OTRS:IN20:621:N_OF_BITS
-        n_col: OTRS:IN20:621:Image:ArraySize1_RBV
-        n_row: OTRS:IN20:621:Image:ArraySize0_RBV
+        n_col: OTRS:IN20:621:N_OF_COL
+        n_row: OTRS:IN20:621:N_OF_ROW
         resolution: OTRS:IN20:621:RESOLUTION
       control_name: OTRS:IN20:621
     metadata:

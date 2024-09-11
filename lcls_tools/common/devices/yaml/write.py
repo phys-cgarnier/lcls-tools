@@ -35,6 +35,12 @@ class YAMLWriter:
         if wires:
             file_contents["wires"] = wires
 
+        bpms = self.generator.extract_bpms(
+            area=area,
+        )
+        if bpms:
+            file_contents["bpms"] = bpms
+
         if file_contents:
             return file_contents
         return None
