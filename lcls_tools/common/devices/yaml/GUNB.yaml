@@ -438,7 +438,7 @@ magnets:
       - SC_STMO
       - SC_STXI
       - SC_SXR
-      l_eff: 0.0
+      l_eff: test_bad_code_answeris0.
       sum_l_meters: 1.889
       type: YCOR
 screens:
