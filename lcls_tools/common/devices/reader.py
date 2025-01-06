@@ -73,6 +73,7 @@ def _device_data(
 def create_magnet(
     area: str = None, name: str = None
 ) -> Union[None, Magnet, MagnetCollection]:
+    print('in local lcls-tools')
     device_data = _device_data(area=area, device_type="magnets", name=name)
     if not device_data:
         return None
