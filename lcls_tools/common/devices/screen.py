@@ -38,6 +38,7 @@ class ScreenPVSet(PVSet):
     n_row: PV
     n_bits: PV
     resolution: PV
+    pneumatic: PV
     sys_type: PV
     ref_rate_vme: Optional[PV] = None
     ref_rate: Optional[PV] = None
