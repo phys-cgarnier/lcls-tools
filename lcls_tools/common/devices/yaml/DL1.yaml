@@ -762,7 +762,8 @@ magnets:
 screens:
   OTR1:
     controls_information:
-      PVs: {}
+      PVs:
+        pneumatic: OTRS:IN20:541:PNEUMATIC
       control_name: OTRS:IN20:541
     metadata:
       area: DL1
@@ -783,6 +784,7 @@ screens:
         n_bits: OTRS:IN20:571:N_OF_BITS
         n_col: OTRS:IN20:571:Image:ArraySize1_RBV
         n_row: OTRS:IN20:571:Image:ArraySize0_RBV
+        pneumatic: OTRS:IN20:571:PNEUMATIC
         ref_rate: OTRS:IN20:571:ArrayRate_RBV
         ref_rate_vme: OTRS:IN20:571:FRAME_RATE
         resolution: OTRS:IN20:571:RESOLUTION
@@ -807,6 +809,7 @@ screens:
         n_bits: OTRS:IN20:621:N_OF_BITS
         n_col: OTRS:IN20:621:N_OF_COL
         n_row: OTRS:IN20:621:N_OF_ROW
+        pneumatic: OTRS:IN20:621:PNEUMATIC
         ref_rate_vme: OTRS:IN20:621:FRAME_RATE
         resolution: OTRS:IN20:621:RESOLUTION
         sys_type: OTRS:IN20:621:SYS_TYPE
@@ -830,6 +833,7 @@ screens:
         n_bits: OTRS:IN20:711:N_OF_BITS
         n_col: OTRS:IN20:711:N_OF_COL
         n_row: OTRS:IN20:711:N_OF_ROW
+        pneumatic: OTRS:IN20:711:PNEUMATIC
         ref_rate_vme: OTRS:IN20:711:FRAME_RATE
         resolution: OTRS:IN20:711:RESOLUTION
         sys_type: OTRS:IN20:711:SYS_TYPE
@@ -852,6 +856,7 @@ screens:
         n_bits: OTRS:IN20:465:N_OF_BITS
         n_col: OTRS:IN20:465:Image:ArraySize1_RBV
         n_row: OTRS:IN20:465:Image:ArraySize0_RBV
+        pneumatic: OTRS:IN20:465:PNEUMATIC
         ref_rate: OTRS:IN20:465:ArrayRate_RBV
         ref_rate_vme: OTRS:IN20:465:FRAME_RATE
         resolution: OTRS:IN20:465:RESOLUTION
@@ -876,6 +881,7 @@ screens:
         n_bits: OTRS:IN20:471:N_OF_BITS
         n_col: OTRS:IN20:471:Image:ArraySize1_RBV
         n_row: OTRS:IN20:471:Image:ArraySize0_RBV
+        pneumatic: OTRS:IN20:471:PNEUMATIC
         ref_rate: OTRS:IN20:471:ArrayRate_RBV
         ref_rate_vme: OTRS:IN20:471:FRAME_RATE
         resolution: OTRS:IN20:471:RESOLUTION

@@ -2749,6 +2749,7 @@ screens:
   OTR33:
     controls_information:
       PVs:
+        pneumatic: OTRS:LTUH:745:PNEUMATIC
         ref_rate_vme: OTRS:LTUH:745:FRAME_RATE
         sys_type: OTRS:LTUH:745:SYS_TYPE
       control_name: OTRS:LTUH:745
@@ -2769,6 +2770,7 @@ screens:
         n_bits: YAGS:LTUH:743:N_OF_BITS
         n_col: YAGS:LTUH:743:Image:ArraySize1_RBV
         n_row: YAGS:LTUH:743:Image:ArraySize0_RBV
+        pneumatic: YAGS:LTUH:743:PNEUMATIC
         ref_rate: YAGS:LTUH:743:ArrayRate_RBV
         ref_rate_vme: YAGS:LTUH:743:FRAME_RATE
         resolution: YAGS:LTUH:743:RESOLUTION

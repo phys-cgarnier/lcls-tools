@@ -354,6 +354,7 @@ screens:
         n_bits: OTRS:DMPH:695:N_OF_BITS
         n_col: OTRS:DMPH:695:Image:ArraySize1_RBV
         n_row: OTRS:DMPH:695:Image:ArraySize0_RBV
+        pneumatic: OTRS:DMPH:695:PNEUMATIC
         ref_rate: OTRS:DMPH:695:ArrayRate_RBV
         ref_rate_vme: OTRS:DMPH:695:FRAME_RATE
         resolution: OTRS:DMPH:695:RESOLUTION

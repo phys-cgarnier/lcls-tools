@@ -200,6 +200,7 @@ screens:
         n_bits: YAGS:IN20:921:N_OF_BITS
         n_col: YAGS:IN20:921:N_OF_COL
         n_row: YAGS:IN20:921:N_OF_ROW
+        pneumatic: YAGS:IN20:921:PNEUMATIC
         ref_rate_vme: YAGS:IN20:921:FRAME_RATE
         resolution: YAGS:IN20:921:RESOLUTION
         sys_type: YAGS:IN20:921:SYS_TYPE
@@ -217,6 +218,7 @@ screens:
         n_bits: YAGS:IN20:995:N_OF_BITS
         n_col: YAGS:IN20:995:N_OF_COL
         n_row: YAGS:IN20:995:N_OF_ROW
+        pneumatic: YAGS:IN20:995:PNEUMATIC
         ref_rate_vme: YAGS:IN20:995:FRAME_RATE
         resolution: YAGS:IN20:995:RESOLUTION
         sys_type: YAGS:IN20:995:SYS_TYPE

@@ -604,6 +604,7 @@ screens:
         n_bits: OTRS:LI21:237:N_OF_BITS
         n_col: OTRS:LI21:237:N_OF_COL
         n_row: OTRS:LI21:237:N_OF_ROW
+        pneumatic: OTRS:LI21:237:PNEUMATIC
         ref_rate_vme: OTRS:LI21:237:FRAME_RATE
         resolution: OTRS:LI21:237:RESOLUTION
         sys_type: OTRS:LI21:237:SYS_TYPE
@@ -626,6 +627,7 @@ screens:
         n_bits: OTRS:LI21:291:N_OF_BITS
         n_col: OTRS:LI21:291:N_OF_COL
         n_row: OTRS:LI21:291:N_OF_ROW
+        pneumatic: OTRS:LI21:291:PNEUMATIC
         ref_rate_vme: OTRS:LI21:291:FRAME_RATE
         resolution: OTRS:LI21:291:RESOLUTION
         sys_type: OTRS:LI21:291:SYS_TYPE

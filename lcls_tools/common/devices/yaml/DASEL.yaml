@@ -566,6 +566,7 @@ screens:
         n_bits: PROF:DASEL:440:N_OF_BITS
         n_col: PROF:DASEL:440:Image:ArraySize1_RBV
         n_row: PROF:DASEL:440:Image:ArraySize0_RBV
+        pneumatic: PROF:DASEL:440:PNEUMATIC
         ref_rate: PROF:DASEL:440:ArrayRate_RBV
         ref_rate_vme: PROF:DASEL:440:FRAME_RATE
         resolution: PROF:DASEL:440:RESOLUTION
@@ -584,6 +585,7 @@ screens:
         n_bits: PROF:DASEL:655:N_OF_BITS
         n_col: PROF:DASEL:655:Image:ArraySize1_RBV
         n_row: PROF:DASEL:655:Image:ArraySize0_RBV
+        pneumatic: PROF:DASEL:655:PNEUMATIC
         ref_rate: PROF:DASEL:655:ArrayRate_RBV
         ref_rate_vme: PROF:DASEL:655:FRAME_RATE
         resolution: PROF:DASEL:655:RESOLUTION
@@ -601,6 +603,7 @@ screens:
         n_bits: PROF:DASEL:818:N_OF_BITS
         n_col: PROF:DASEL:818:Image:ArraySize1_RBV
         n_row: PROF:DASEL:818:Image:ArraySize0_RBV
+        pneumatic: PROF:DASEL:818:PNEUMATIC
         ref_rate: PROF:DASEL:818:ArrayRate_RBV
         ref_rate_vme: PROF:DASEL:818:FRAME_RATE
         resolution: PROF:DASEL:818:RESOLUTION
